@@ -1,0 +1,26 @@
+{
+  "SamplingFrequency": 60,
+  "time": {
+    "Description": "Global or run-specific time",
+    "Units": "s"
+  },
+  "ball_x_pix": {
+    "Description": "Horizontal screen position of the ball",
+    "Units": "px"
+  },
+  "ball_color": {
+    "Description": "Ball color cue (red/yellow)"
+  },
+  "move_direct": {
+    "Description": "Target direction (left/right)"
+  },
+  "trial": {
+    "Description": "Trial index"
+  },
+  "hit": {
+    "Description": "1 if boundary hit, else 0"
+  },
+  "hand": {
+    "Description": "Hand label carried from file name (left/right)"
+  }
+}
