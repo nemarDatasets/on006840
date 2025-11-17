@@ -1,0 +1,34 @@
+{
+  "Name": "IACKD derivatives \u2014 aligned EEG\u2013hand series",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "derivative",
+  "GeneratedBy": [
+    {
+      "Name": "preprocess_eeg_pipeline.m",
+      "Version": "v1.0.0"
+    },
+    {
+      "Name": "process_leap_dual_csv.m",
+      "Version": "v1.0.0"
+    },
+    {
+      "Name": "align_eeg_leap.m",
+      "Version": "v1.0.0"
+    },
+    {
+      "Name": "calibrate_pairs_with_events.m",
+      "Version": "v1.0.0"
+    },
+    {
+      "Name": "export_eeg_leap_aligned.m",
+      "Version": "v1.0.0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "doi:10.xxxx/your-openneuro-or-zenodo",
+      "Version": "v1.0.0"
+    }
+  ],
+  "HowToAcknowledge": "Please cite the Scientific Data article."
+}

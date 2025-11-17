@@ -1,0 +1,11 @@
+{
+  "OUT": "struct array, one element per aligned trial",
+  "OUT.t_ms": "1\u00d7T (ms), includes \u2212200 ms baseline; 0 at EEG event 14",
+  "OUT.EEG": "nChan\u00d7T, \u00b5V @100 Hz, baseline-corrected & aligned to t_ms",
+  "OUT.x_mm/y_mm/z_mm": "1\u00d7T, mm @100 Hz, zero-phase 4 Hz Butterworth",
+  "OUT.ball_x_pix": "1\u00d7T, px @100 Hz, screen-space ball x trajectory",
+  "OUT.ball_color/move_direct": "trial labels (majority vote or task labels)",
+  "OUT.a/OUT.b": "affine mapping EEG time(s) \u2192 Leap global time",
+  "OUT.start_res_ms": "residual onset offset (ms)",
+  "OUT.cov": "coverage ratio 0\u20131 within Leap span; out-of-coverage \u2192 NaN"
+}
