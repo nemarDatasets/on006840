@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on006840",
-  "source": "openneuro",
-  "source_id": "ds006840",
+  "pipeline_stage": "validated",
   "title": "IACKD: Intention Action Conflict EEG-Hand Kinematics Dataset ",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Mengpu Cai": {},
     "Rongrong Fu": {},
@@ -12,26 +12,76 @@
     "Saiwei Guo": {},
     "Fangyao Xu": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006840.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006840",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006840",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
       "funder_name": "N/A"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "7.9 GB (809 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".mat",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "description": "IACKD is a multimodal neurophysiological dataset combining electroencephalography (EEG) recordings with hand kinematics data collected during a task designed to investigate intention-action conflict. The dataset comprises raw EEG signals and synchronized kinematic measurements from participants performing motor tasks, providing a resource for studying the neural mechanisms underlying motor planning and conflict resolution.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "intention-action conflict"
+    },
+    {
+      "term": "hand kinematics"
+    },
+    {
+      "term": "motor planning"
+    },
+    {
+      "term": "conflict resolution"
+    }
+  ],
+  "source_hash": "dff6c3f5fd87840bd38dcce0380c49610665d828c9890b83ee1d38e249ee1926"
 }
