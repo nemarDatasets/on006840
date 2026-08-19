@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "IACKD: Intention Action Conflict EEG-Hand Kinematics Dataset ",
+  "description": "This dataset comprises EEG and hand kinematics data recorded during an intention-action conflict paradigm, in which participants performed hand movements while cognitive intention and executed action were experimentally manipulated. The data are intended to support research into the neural and behavioral correlates of intention-action conflict. Data were organized into BIDS format for public sharing and analysis.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,6 +13,25 @@
     "Saiwei Guo": {},
     "Fangyao Xu": {}
   },
+  "keywords": [
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "hand kinematics"
+    },
+    {
+      "term": "intention-action conflict"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006840.v1.0.0",
@@ -45,10 +65,10 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "7.9 GB (809 files)"
   ],
@@ -62,26 +82,6 @@
     ".vmrk",
     ".yml"
   ],
-  "description": "IACKD is a multimodal neurophysiological dataset combining electroencephalography (EEG) recordings with hand kinematics data collected during a task designed to investigate intention-action conflict. The dataset comprises raw EEG signals and synchronized kinematic measurements from participants performing motor tasks, providing a resource for studying the neural mechanisms underlying motor planning and conflict resolution.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "intention-action conflict"
-    },
-    {
-      "term": "hand kinematics"
-    },
-    {
-      "term": "motor planning"
-    },
-    {
-      "term": "conflict resolution"
-    }
-  ],
+  "methods_description": "EEG data were recorded and converted to BIDS format using MNE and mne-bids, with task stimuli presented via PsychoPy (version 2023.2). Data processing was conducted in Python 3.10.",
   "source_hash": "dff6c3f5fd87840bd38dcce0380c49610665d828c9890b83ee1d38e249ee1926"
 }
