@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "IACKD: Intention Action Conflict EEG-Hand Kinematics Dataset ",
-  "description": "IACKD is an EEG and hand kinematics dataset designed to study conflict between motor intention and executed action. It provides EEG recordings synchronized with hand movement kinematics, organized in BIDS format with BrainVision files. The dataset supports research on intention-action conflict, motor control, and brain-behavior coupling.",
-  "methods_description": "Task presentation used PsychoPy. EEG was recorded in BrainVision format and converted to BIDS using MNE and MNE-BIDS.",
+  "description": "IACKD is an EEG and hand kinematics dataset designed to study conflict between motor intention and executed action. It pairs EEG recordings with hand movement kinematics, and is organized in BIDS format with BrainVision EEG files. Task presentation was implemented in PsychoPy.",
+  "methods_description": "EEG data were recorded in BrainVision format alongside hand kinematics during a task presented with PsychoPy. Data were converted to BIDS using MNE and MNE-BIDS.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -28,7 +28,9 @@
       "term": "motor control"
     },
     {
-      "term": "BIDS"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
